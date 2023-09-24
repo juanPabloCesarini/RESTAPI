@@ -1,0 +1,21 @@
+http://localhost:4000/api/languages/
+
+###
+DELETE http://localhost:4000/api/languages/2
+###
+POST http://localhost:4000/api/languages
+Content-Type: application/json
+
+{
+     "name":"C++",
+     "programmers":3
+}
+
+###
+PUT http://localhost:4000/api/languages/4
+Content-Type: application/json
+
+{
+     "name":"JAVA",
+     "programmers":1
+}
